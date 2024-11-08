@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Math Calculator</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/nerdamer@1.1.8/nerdamer.bundle.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h1>Dynamic Advanced Math Calculator</h1>
+    <p>Calculate derivatives and matrix operations dynamically</p>
+
+    <!-- Derivative & Integral Section -->
+    <div class="calculator">
+      <h2>Derivatives </h2>
+      <div class="input-group">
+        <label for="expression">Enter your formula:</label>
+        <input type="text" id="expression" placeholder="e.g., x^2 + 3*x - 5">
+      </div>
+      <div class="input-group">
+        <label for="variable">Variable:</label>
+        <input type="text" id="variable" placeholder="e.g., x">
+      </div>
+      <div class="buttons">
+        <button id="calculate-derivative">Calculate Derivative</button>
+      </div>
+    </div>
+
+    <!-- Matrix Section -->
+    <div class="calculator">
+      <h2>Matrix Operations</h2>
+      <div class="input-group">
+        <label for="matrix">Enter a matrix (e.g., [[1,2],[3,4]]):</label>
+        <input type="text" id="matrix" placeholder="e.g., [[1,2],[3,4]]">
+      </div>
+      <div class="buttons">
+        <button id="matrix-transpose">Transpose</button>
+        <button id="matrix-determinant">Determinant</button>
+        <button id="matrix-inverse">Inverse</button>
+      </div>
+    </div>
+
+    <!-- Output Section -->
+    <div id="output" class="output"></div>
+  </div>
+  <script src="./scripts.js"></script>
+</body>
+</html>
