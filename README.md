@@ -1,5 +1,7 @@
 # Advanced Math Calculator
 
+[View Live Project](https://advancedcalculator2.netlify.app/)
+
 The **Advanced Math Calculator** is a versatile web application designed to simplify complex mathematical computations. This app provides features such as calculating derivatives and performing various matrix operations, making it a valuable tool for students, professionals, and math enthusiasts.
 
 ## Features
