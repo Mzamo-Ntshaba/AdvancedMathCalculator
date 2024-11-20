@@ -37,4 +37,4 @@ The **Advanced Math Calculator** is a versatile web application designed to simp
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mzamo-ntshaba/advanced-math-calculator.git
+   git clone https://github.com/mzamo-ntshaba/AdvancedMathCalculator.git
